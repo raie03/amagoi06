@@ -118,6 +118,14 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
+  display: block;
+  margin: auto;
+}
+
+.youtube_ifreme{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
 }
 
 .embed-container {

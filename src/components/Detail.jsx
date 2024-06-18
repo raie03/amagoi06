@@ -13,7 +13,8 @@ const Detail = () => {
         <h2 className='detailTitle'>{foundArticle.title}</h2>
         <p className='detailContent'>{foundArticle.content}</p>
         <div class="you">
-        <YouTube className='iframe' videoId={foundArticle.youtube}/>
+        <iframe class="youtube_ifreme" width="560" height="315" src={foundArticle.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     </div>
   )
