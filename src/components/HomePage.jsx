@@ -23,7 +23,7 @@ const HomePage = () => {
             <section class="page-section" id="services">
                 <div className="service">
                     <div class="text-center">
-                        <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
+                        <h2 class="section-subheading text-muted mb-5">works</h2>
                     </div>
                 </div>
             </section>

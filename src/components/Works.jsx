@@ -8,7 +8,8 @@ import Col from 'react-bootstrap/Col';
 const Works = () => {
     return (
 
-        <div className='works'><Container >
+        <div className='works'>
+            {/*<Container >
             <h2 class="section-subheading text-muted mb-5">works</h2>
             <Row >
                 {
@@ -16,7 +17,7 @@ const Works = () => {
                         return (
 
                             <Col xs={12} md={4} key={article.id}>
-                                <div>
+                                <div class="work">
                                     <Link to={"/detail/" + article.id}><img src={article.thumbnail} className="thumbnail" /></Link>
                                     <p><Link to={"/detail/" + article.id}><h2 className="title">{article.title}</h2></Link></p>
                                 </div>
@@ -26,24 +27,40 @@ const Works = () => {
                     })
                 }
             </Row>
-        </Container>
+        </Container>*/}
 
-                <div class="con">
+            <div class="con">
                 {
                     data && data.map(article => {
                         return (
 
-                            <div  key={article.id}>
-                                <div class="item">
-                                    <Link to={"/detail/" + article.id}><img src={article.thumbnail} className="thumbnail" /></Link>
-                                    <p><Link to={"/detail/" + article.id}><h2 className="title">{article.title}</h2></Link></p>
+                            <div class="item" key={article.id}>
+                                <div class="itemInner">
+                                    <div class="itemInner2">
+                                        <Link to={"/detail/" + article.id} >
+                                        <div class="itemVisual">
+                                            <div class="visualContainer">
+                                                <span class="visSub">
+                                                    <img src={article.thumbnail} className="thumbnail" />
+                                                </span>
+                                            </div>
+                                            </div>
+                                        </Link>
+                                        <p>
+                                            <Link to={"/detail/" + article.id}>
+                                                <div class="titleContainer">
+                                                    <div className="title">{article.title}</div>
+                                                </div>
+                                            </Link>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         )
                     })
                 }
-                </div>
-        </div>          
+            </div>
+        </div>
     )
 }
 

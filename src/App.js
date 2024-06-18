@@ -7,6 +7,7 @@ import data from "./JSON/data.json";
 import Article from './components/Article';
 import Detail from './components/Detail';
 import Works from './components/Works';
+import WorksPage from './components/WorksPage';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/works" element={<Works />} />
+          <Route path="/works" element={<WorksPage />} />
           <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </div>
