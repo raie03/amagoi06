@@ -12,7 +12,7 @@ const Detail = () => {
     <div>
         <h2 className='detailTitle'>{foundArticle.title}</h2>
         <p className='detailContent'>{foundArticle.content}</p>
-        <div class="embed-container">
+        <div class="youtube">
         <YouTube className='iframe' containerClassName="youtube" videoId={foundArticle.youtube}/>
         </div>
     </div>
