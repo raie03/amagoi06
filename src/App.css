@@ -64,6 +64,17 @@ nav ul li a:hover {
   font-size: 50px;
 }
 
+.con{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item{
+  text-align: center;
+}
+
 .profileImage {
   object-fit: cover;
   height: 100px;
@@ -85,14 +96,14 @@ nav ul li a:hover {
 .thumbnail {
 
   object-fit: cover;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   margin-bottom: 15px;
   border-radius: 15%;
 }
 
 .title {
-  width: 100%;
+  width: 80%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
