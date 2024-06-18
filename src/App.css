@@ -33,6 +33,7 @@ header .logo h3 {
 nav ul {
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav ul li {
@@ -77,6 +78,7 @@ nav ul li a:hover {
   height: 200px;
   width: 200px;
   margin-bottom: 15px;
+  border-radius: 15%;
 }
 
 .title{
