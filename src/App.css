@@ -27,14 +27,14 @@ header {
 
 header .logo h3 {
   margin: 0;
-  margin-left: -100px;
+  margin-left: -50px;
   padding: 0;
   color: white;
 }
 
 nav ul {
   margin: 0;
-  margin-right: -100px;
+  margin-right: -50px;
   padding: 0;
   display: flex;
 }
@@ -90,7 +90,7 @@ nav ul li a:hover {
   flex:0 0 25%;
   -webkit-box-flex: 0;
   margin-top: 5px;
-  margin-bottom: 45px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 750px) {
@@ -101,10 +101,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 1050px) {
-  .gRGylr {
+  .item {
       width: 33.33%;
       flex-basis: 33.33%;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
   }
 }
 
@@ -192,6 +192,7 @@ a{
 }
 
 .title {
+  /*
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -200,8 +201,8 @@ a{
   font-size: 20px;
   display: inline-block;
   text-align: center;
-  color: black;
-  /*
+  color: black;*/
+  
   font-size: 15px;
     line-height: 19px;
     text-decoration: none;
@@ -210,7 +211,7 @@ a{
     letter-spacing: 0.02em;
     overflow-wrap: break-word;
     word-break: break-word;
-    white-space: pre-wrap;*/
+    white-space: nowrap;
 }
 
 .profileImage {
@@ -233,19 +234,39 @@ a{
   /*max-width: 250px;*/
 }
 
-
-
-
+.detailPage{
+  padding-top: 120px;
+}
 
 .detailTitle {
   width: 100%;
+  font-size: 30px;
+  line-height: 19px;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  letter-spacing: 0.02em;
 
+  /*
+  width: 100%;
+  font-weight: bold;
   text-align: center;
   font-size: 25px;
   margin-top: 120px;
   display: inline-block;
 
-  color: black;
+  color: black;*/
+}
+
+.detailContent {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 19px;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  letter-spacing: 0.02em;
 }
 
 .iframe {
@@ -268,14 +289,6 @@ a{
   max-width: 100%;
   padding-bottom: 56.25%;
   position: relative;
-}
-
-.detailContent {
-  width: 100%;
-
-  text-align: center;
-  font-size: 20px;
-  color: black;
 }
 
 img {
@@ -307,7 +320,7 @@ img {
   width: 32px;
   height: 32px;
   margin: 0 40px 0 0;
-  margin-right: -100px;
+  margin-right: -50px;
   cursor: pointer;
   position: relative;
   z-index: 10;
