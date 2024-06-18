@@ -10,15 +10,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Works from "./Works";
+import Profile from "./Profile";
 
 const HomePage = () => {
     return (
-        <div className="container text-center">
-
-
-            <img src="./Images/sci-fi2-2.jpg" className="profileImage" />
-            <h1>amagoi06</h1>
-            <p></p>
+        <div className="container text-center" class="homePage">
+            
+            <Profile />
+            
+            
 
             <section class="page-section" id="services">
                 <div className="service">
