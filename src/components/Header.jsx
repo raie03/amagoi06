@@ -6,6 +6,12 @@ const Header = () => {
             <h3>PORTFOLIO</h3>
         </div>
 
+        <div class="responsive_btn">
+        <div class="menu_line"></div>
+        <div class="menu_line"></div>
+        <div class="menu_line"></div>
+      </div>
+
         <nav>
             <ul>
                 <li>

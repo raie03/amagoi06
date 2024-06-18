@@ -28,7 +28,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <Works />
+            <Works className="worksHome"/>
             
         </div>
     )
