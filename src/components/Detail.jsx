@@ -12,8 +12,8 @@ const Detail = () => {
     <div>
         <h2 className='detailTitle'>{foundArticle.title}</h2>
         <p className='detailContent'>{foundArticle.content}</p>
-        <div class="youtube">
-        <YouTube className='iframe' containerClassName="youtube" videoId={foundArticle.youtube}/>
+        <div class="you">
+        <YouTube className='iframe' videoId={foundArticle.youtube}/>
         </div>
     </div>
   )
