@@ -12,6 +12,7 @@
   /* font-style: normal; */
 }
 
+
 header {
   display: flex;
   justify-content: space-around;
@@ -72,8 +73,13 @@ nav ul li a:hover {
   margin-bottom: 15px;
 }
 
+.works{
+  padding-top: 120px;
+  text-align: center;
+}
+
 .thumbnail{
-  
+
   object-fit: cover;
   height: 200px;
   width: 200px;
@@ -103,7 +109,6 @@ nav ul li a:hover {
   
   color: black;
 }
-
 
 .iframe{
   height: 100%;

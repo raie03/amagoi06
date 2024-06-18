@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import data from "./JSON/data.json";
 import Article from './components/Article';
 import Detail from './components/Detail';
+import Works from './components/Works';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/works" element={<Works />} />
           <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </div>
