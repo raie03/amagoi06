@@ -291,7 +291,7 @@ a{
 .detailTitle {
   width: auto;
   font-size: 30px;
-  line-height: 19px;
+  line-height: 30px;
   text-decoration: none;
   color: rgb(34, 34, 34);
   font-weight: bold;
@@ -317,6 +317,7 @@ a{
   text-decoration: none;
   color: rgb(34, 34, 34);
   letter-spacing: 0.02em;
+  overflow-wrap: normal;
 }
 
 .iframe {
