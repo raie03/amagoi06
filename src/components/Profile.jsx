@@ -9,6 +9,8 @@ const Profile = () => {
             </div>
             <div class="bio">
                 <div>DTM歴4年。世界観のある曲が好きです。</div>
+                <div>Twitter: <a href="https://x.com/Am45106">https://x.com/Am45106</a></div>
+                <div>contact: amagoi06.work@gmail.com</div>
             </div>
         </div>
     )
