@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Works = () => {
+    const revData = [...data].reverse();
     return (
 
         <div className='works'>
@@ -31,7 +32,7 @@ const Works = () => {
 
             <div class="con">
                 {
-                    data && data.map(article => {
+                    revData && revData.map(article => {
                         return (
 
                             <div class="item" key={article.id}>
