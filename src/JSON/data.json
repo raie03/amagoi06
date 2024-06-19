@@ -4,34 +4,47 @@
         "title": "monolithariumを制作しました",
         "content": "Astrantia Vol.1収録楽曲",
         "youtube": "https://www.youtube.com/embed/GPqhko-H3vM?si=RJg3ClWzRqZrfGTQ",
-        "thumbnail": "./Images/sci-fi2-2.jpg"
+        "thumbnail": "./Images/sci-fi2-2.jpg",
+        "soundcloud": ""
     },
     {
         "id": 2,
         "title": "Luster Youを制作しました",
         "content": "Cosmic Radio 2024 Submission応募楽曲",
         "youtube": "https://www.youtube.com/embed/8x0Xbz79Smw?si=Cj6kK72g0wwjSuDs",
-        "thumbnail": "./Images/sci-fi2-2.jpg"
+        "thumbnail": "./Images/sci-fi2-2.jpg",
+        "soundcloud": ""
     },
     {
         "id": 3,
         "title": "Chronomancerを制作しました",
         "content": "Cosmic Radio 2024 Submission応募楽曲",
         "youtube": "https://www.youtube.com/embed/Fgvye-Z-ccY?si=bNmi1R90yFS4WuWg",
-        "thumbnail": "./Images/sci-fi2-2.jpg"
+        "thumbnail": "./Images/sci-fi2-2.jpg",
+        "soundcloud": ""
     },
     {
         "id": 4,
         "title": "Cryosyncを制作しました",
         "content": "Cosmic Radio 2024 Submission応募楽曲",
         "youtube": "https://www.youtube.com/embed/co858Ow8Mm8?si=dpCbqZbkhJxSmcBe",
-        "thumbnail": "./Images/sci-fi2-2.jpg"
+        "thumbnail": "./Images/sci-fi2-2.jpg",
+        "soundcloud": ""
     },
     {
         "id": 5,
         "title": "Tactical Junctionを制作しました",
         "content": "Cosmic Radio 2024 Submission応募楽曲",
         "youtube": "https://www.youtube.com/embed/WCsVYyIva9I?si=HQOt52m8jwNMjvaD",
-        "thumbnail": "./Images/sci-fi2-2.jpg"
+        "thumbnail": "./Images/sci-fi2-2.jpg",
+        "soundcloud": ""
+    },
+    {
+        "id": 6,
+        "title": "Aimless Travelerを制作しました",
+        "content": "ジャンル:future bass",
+        "youtube": "",
+        "thumbnail": "./Images/M3_Jacket.jpg",
+        "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1844010567"
     }
 ]
