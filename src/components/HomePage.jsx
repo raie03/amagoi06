@@ -19,7 +19,7 @@ const HomePage = () => {
             <Profile />
             
             
-
+            <div className="worksHome">
             <section class="page-section" id="services">
                 <div className="service">
                     <div class="text-center">
@@ -27,8 +27,9 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+            </div>
 
-            <Works className="worksHome"/>
+            <Works />
             
         </div>
     )
