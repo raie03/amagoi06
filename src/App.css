@@ -289,7 +289,7 @@ a{
   /*margin-top: -5vw;*/
   margin-top: 7%;
   margin-bottom: 7%;
-  height: 10vw;
+  height: auto;
 }
 
 .section-subheading{
@@ -397,6 +397,10 @@ img {
   z-index: 10;
 }
 
+ .responsive_btn div :hover {
+  /*color: #48b4af;*/
+}
+
 .menu_line {
   background: #fafafa;
   border-radius: 5px;
@@ -434,5 +438,34 @@ img {
 }
 
 .menu_active {
-  right: 0;
+  
+}
+
+.menuList{
+  background-color: #323232;
+  padding-top: 10vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position:fixed;
+  z-index: 9;
+}
+
+.menuList div{
+  font-size: 5vw;
+  color: rgb(34, 34, 34);
+  border-bottom: solid 1px #696969;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: all 0.2s;
+}
+
+.menuName:hover{
+  color: #48b4af;
+}
+
+.menuIcon:hover{
+  color: #48b4af;
 }
