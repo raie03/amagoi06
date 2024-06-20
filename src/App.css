@@ -274,8 +274,9 @@ a{
 }
 
 .bio{
-  font-size: 3vw;
-  line-height: 3vw;
+  /*font-size: 3vw;*/
+  font-size: min(3vw,30px);
+  line-height: min(3vw,30px);
   text-align: left;
   color: rgb(34, 34, 34);
   letter-spacing: 0.02em;
